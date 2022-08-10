@@ -4,7 +4,7 @@ type Props = {};
 
 const Objective = (props: Props) => {
   return (
-    <div className="pt-16 mx-auto max-w-7xl">
+    <div className="pt-16 mx-auto md:px-3 max-w-7xl">
       <div className="mx-auto mb-12 text-center lg:mb-10 max-w-prose">
         <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-md text-dark font-heading">
           Our Objectives
@@ -14,7 +14,7 @@ const Objective = (props: Props) => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-8 px-2 mt-12 md:grid-cols-2 lg:grid-cols-3 sm:px-0">
+      <div className="grid grid-cols-2 gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3 sm:px-2">
         {Data.map((items) => (
           <div
             key={items.id}

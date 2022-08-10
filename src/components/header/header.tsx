@@ -107,12 +107,11 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center -mr-2 xl:hidden">
               <button className="mt-4 mr-4">
-                <a
-                  href="#"
-                  className="px-3 py-2 text-xs font-bold text-white bg-brandPink hover:bg-gray-800 rounded-2xl"
-                >
-                  Contact Us
-                </a>
+                <Link href="/gg-care">
+                  <a className="px-3 py-2 text-xs font-bold text-white bg-brandPink hover:bg-gray-800 rounded-2xl">
+                    Contact Us
+                  </a>
+                </Link>
               </button>
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -173,24 +172,36 @@ const Header = () => {
                     Home
                   </a>
                 </Link>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
-                  About
-                </span>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
-                  Initiatives
-                </span>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
-                  <Link href="/events">Events</Link>
-                </span>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
-                  <Link href="/research">Research and Journals</Link>
-                </span>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
-                  <Link href="/blogs/page/1">Blogs</Link>
-                </span>
-                <span className="block px-3 py-2 text-sm text-gray-800 rounded-md cursor-pointer hover:bg-brandPink hover:text-white">
-                  <Link href="/gg-care">Contact Us</Link>
-                </span>
+                <Link href={"/about"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    About
+                  </a>
+                </Link>
+                <Link href={"/our-initiatives"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    Initiatives
+                  </a>
+                </Link>
+                <Link href={"/stories-of-change"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    Stories of Change
+                  </a>
+                </Link>
+                <Link href={"/camps"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    Camps
+                  </a>
+                </Link>
+                <Link href={"/collaborations"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    Collaborations
+                  </a>
+                </Link>
+                <Link href={"/gg-care"} passHref>
+                  <a className="block px-3 py-2 text-sm text-gray-800 rounded-md hover:bg-brandPink hover:text-white">
+                    GG CARE
+                  </a>
+                </Link>
               </div>
             </div>
           )}

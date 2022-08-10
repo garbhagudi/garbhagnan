@@ -7,8 +7,8 @@ const Map = (props: Props) => {
   return (
     <div>
       <section className="relative text-gray-600 body-font">
-        <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
-          <div className="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
+        <div className="container grid grid-cols-1 px-5 py-24 mx-auto lg:grid-cols-3 sm:flex-nowrap">
+          <div className="relative flex items-end justify-start col-span-1 p-10 overflow-hidden bg-gray-300 rounded-lg sm:mr-10 lg:col-span-2">
             <iframe
               width="100%"
               height="100%"
@@ -50,7 +50,7 @@ const Map = (props: Props) => {
             </div>
           </div>
           <div className="mx-auto">
-            <div className="pb-6 text-2xl font-semibold font-heading">
+            <div className="pb-6 text-2xl font-semibold pt-14 lg:pt-0 font-heading">
               Contact us for :
             </div>
             <div className="grid grid-cols-1 gap-12 mt-8 sm:gap-x-8 sm:gap-y-16 lg:mt-0 font-content">

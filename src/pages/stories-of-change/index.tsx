@@ -3,12 +3,47 @@ import Heading from "sections/stories-of-change/heading";
 import StoryOne from "sections/stories-of-change/story1";
 import StoryTwo from "sections/stories-of-change/story2";
 import StoryThree from "sections/stories-of-change/story3";
+import Head from "next/head";
 
 type Props = {};
 
 const IndexPage = (props: Props) => {
   return (
     <div>
+      <Head>
+        {/* Primary Tags */}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Stories of Change | GarbhaGnan Foundation</title>
+        <meta
+          name="title"
+          content="Stories of Change | GarbhaGnan Foundation"
+        />
+        <meta name="description" content="" />
+
+        {/* Open Graph / Facebook */}
+
+        <meta
+          property="og:title"
+          content="Stories of Change | GarbhaGnan Foundation"
+        />
+        <meta property="og:site_name" content="GarbhaGnan Foundation" />
+        <meta property="og:url" content="https://garbhagnan.org" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="" />
+
+        {/* Twitter*/}
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@garbhagnan" />
+        <meta
+          name="twitter:title"
+          content="Stories of Change | GarbhaGnan Foundation"
+        />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:image" content="" />
+      </Head>
       <Heading />
       <StoryOne />
       <StoryTwo />

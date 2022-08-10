@@ -4,7 +4,7 @@ import Link from "next/link";
 const Overview = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-16">
+      <div className="grid grid-cols-1 px-3 lg:grid-cols-2 lg:gap-x-16">
         <div className="px-3 pt-12 mx-auto sm:pt-16 lg:pt-20 sm:px-0">
           <img
             src="https://res.cloudinary.com/garbhagudi/image/upload/v1659959780/garbhagnan.org/banner/banner01_uzleul.jpg"

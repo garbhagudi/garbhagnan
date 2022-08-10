@@ -32,7 +32,7 @@ const CarouselHome = (props: Props) => {
         ssr={true}
         infinite={true}
         removeArrowOnDeviceType={["tablet", "mobile"]}
-        // autoPlay={true}
+        autoPlay={true}
         autoPlaySpeed={5000}
       >
         {Data.map((items: any) => (
@@ -69,12 +69,9 @@ const Data = [
         <h1 className="text-2xl font-bold text-center text-white md:text-4xl lg:text-6xl font-heading">
           GarbhaGnan Foundation
         </h1>
-        <p className="mt-4 text-sm font-semibold text-center text-white md:text-lg">
-          Research, spreading awareness, treatment on reproductive health.
-          <br />
-          <span className="font-thin font-xs md:text-md">
-            GarbhaGnan Foundation: The Journey of a thousand smiles that started
-            with a cry
+        <p className="mt-1 text-sm font-semibold text-center text-white sm:mt-4 md:text-lg">
+          <span className="font-xs md:text-md">
+            The Journey of a thousand smiles that started with a cry
           </span>
         </p>
       </div>
