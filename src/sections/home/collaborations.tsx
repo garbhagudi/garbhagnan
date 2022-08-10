@@ -14,9 +14,9 @@ const Collaborations = (props: Props) => {
           with
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-6">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6">
         {Data.map((items) => (
-          <div key={items.id}>
+          <div key={items.id} className="mx-auto">
             <img src={items.image} alt="logo" className="w-56" />
           </div>
         ))}
@@ -33,11 +33,11 @@ const Data = [
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1660038058/garbhagnan.org/Logos/col-1_hsnyim.jpg",
   },
-  {
-    id: 2,
-    image:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1660038074/garbhagnan.org/Logos/col-2_wwfb7d.jpg",
-  },
+  // {
+  //   id: 2,
+  //   image:
+  //     "https://res.cloudinary.com/garbhagudi/image/upload/v1660038074/garbhagnan.org/Logos/col-2_wwfb7d.jpg",
+  // },
   {
     id: 3,
     image:

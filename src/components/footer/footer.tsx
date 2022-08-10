@@ -15,7 +15,7 @@ const navigation = {
     { name: "Dr Asha S Vijay", href: "https://drashasvijay.com" },
   ],
   support: [
-    { name: "GG CARE", href: "/gg-care" },
+    { name: "GG CARE", href: "https://garbhagudi.com/gg-care" },
     { name: "Phone", href: "tel:+918880000909" },
     { name: "Email", href: "mailto:dreams@garbhagudi.com" },
   ],

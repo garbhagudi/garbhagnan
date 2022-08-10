@@ -91,7 +91,7 @@ const Header = () => {
                       Collaborations
                     </span>
                   </Link>
-                  <Link href="/gg-care" passHref>
+                  <Link href="https://garbhagudi.com/gg-care" passHref>
                     <span
                       className={
                         router.pathname == "/gg-care"
@@ -107,7 +107,7 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center -mr-2 xl:hidden">
               <button className="mt-4 mr-4">
-                <Link href="/gg-care">
+                <Link href="https://garbhagudi.com/gg-care">
                   <a className="px-3 py-2 text-xs font-bold text-white bg-brandPink hover:bg-gray-800 rounded-2xl">
                     Contact Us
                   </a>

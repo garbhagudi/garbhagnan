@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 type Props = {};
 
@@ -62,16 +63,20 @@ const Content = (props: Props) => {
         <div className="grid grid-cols-1 px-3 py-10 mx-auto lg:grid-cols-2 max-w-7xl gap-x-10">
           <div className="flex flex-col items-start justify-center">
             <h1 className="text-2xl font-bold md:text-3xl font-heading">
-              Paripoorna initiative to help BPL cardholders:
+              <Link href="https://garbhagudi.com/features/paripoorna">
+                <a target={"_blank"}>Paripoorna Program </a>
+              </Link>
             </h1>
             <p className="pt-4">
-              Due to the financial challenges, a BPL card holder’s dream of
-              having a baby through IVF gets shattered. In such a scenario,
-              Paripoorna, an initiative of GarbhaGudi IVF Centre in association
-              with GarbhaGnan Foundation, gives a waiver for BPL patients who
-              want to go in for IVF treatment, are incapable due to the
-              high-costs. However, it is applicable for limited patients based
-              on their eligibility.
+              The word ‘PARIPOORNA’ means fulfilment. GarbhaGudi under Dr Asha’s
+              medical supervision is trying to fulfil the dreams of many couples
+              in achieving their parenthood. <br />
+              <br />
+              Paripoorna is an initiative of GarbhaGudi IVF Centre and is being
+              done in association with GarbhaGnan Foundation. It is a special
+              benefit plan for patients who want to go in for fertility
+              treatment, but are unable to bear the costs. It applies to a
+              limited number of couples and is based on their eligibility.
             </p>
             <img
               src="https://res.cloudinary.com/garbhagudi/image/upload/v1660048187/garbhagnan.org/images/our-initiatives-2-chi_uqognb.jpg"
