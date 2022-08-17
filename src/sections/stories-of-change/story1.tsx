@@ -34,8 +34,8 @@ const StoryOne = (props: Props) => {
       </div>
       <div className="px-3 py-6 mx-auto max-w-7xl">
         <p className="pt-4">
-          Shankar and Gauri who married for five years were the participants of
-          infertility awareness camps. At first, they were hesitant to share
+          Shankar and Gauri who are married for five years were the participants
+          of infertility awareness camps. At first, they were hesitant to share
           their problems. But later, the comforting words of the doctor made
           them share their concern. Our fertility doctors organized basic
           fertility screening tests. The problem was identified and diagnosed.

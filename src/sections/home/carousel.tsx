@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import Link from "next/link";
+// import Link from "next/link";
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
@@ -87,7 +87,7 @@ const Data = [
           Experience +
         </h1>
         <p className="mt-4 text-sm font-semibold text-center text-white md:text-lg">
-          Expertise in handling complex sutuations
+          Expertise in handling complex situations
         </p>
       </div>
     ),
@@ -118,10 +118,7 @@ const Data = [
     onDisplayText: (
       <div>
         <h1 className="text-2xl font-bold text-center text-white md:text-4xl lg:text-6xl font-heading">
-          Culminating Infertility <br />{" "}
-          {/* <span className="text-xl md:text-3xl lg:text-5xl">
-            
-          </span> */}
+          Culminating Infertility
         </h1>
         <p className="mt-4 text-lg font-semibold text-center text-white">
           Vision with a social mission
@@ -141,7 +138,7 @@ const Data = [
           Women&apos;s Wellness Program
         </h1>
         <p className="mt-4 text-sm font-semibold text-center text-white md:text-lg">
-          A wholesome approach to reproductive wellness
+          A holistic approach to reproductive wellness
         </p>
       </div>
     ),

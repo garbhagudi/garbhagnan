@@ -10,8 +10,6 @@ const Content = (props: Props) => {
         <div className="flex flex-col items-start justify-center ">
           <h1 className="text-2xl font-bold md:text-3xl font-heading">
             Our collaborations:
-            {/* with Rotary, COWE, Rashtothana and H365 (health */}
-            {/* care 365): */}
           </h1>
           <p className="pt-4">
             Infertility is a reproductive disease that gets cured with the
@@ -45,7 +43,7 @@ const Content = (props: Props) => {
             help every couple have a child.
           </p>
           <p className="my-4 text-2xl font-heading">Our Partners Include: </p>
-          <ul className="space-y-2 list-disc list-inside">
+          <ul className="w-full space-y-2 list-disc list-inside">
             <li>Rotary Club Bangalore</li>
             <li>Confederation of Women Entrepreneurs </li>
             <li>Rashtrotthana Parishath and many more...</li>
