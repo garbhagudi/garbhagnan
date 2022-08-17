@@ -29,19 +29,19 @@ const ContentTwo = (props: Props) => {
           <ul className="space-y-2 list-disc list-inside">
             <li>
               50+ Free Fertility Screening Camps across the length and breadth
-              of Karnataka
+              of Karnataka.
             </li>
             <li>
               500+ women conceived through free medications and subsidized
-              treatments
+              treatments.
             </li>
-            <li>2500+ free semen analysis done</li>
-            <li>5000+ Couples screened, counseled and advised</li>
+            <li>2500+ free semen analysis done.</li>
+            <li>5000+ Couples screened, counseled and advised.</li>
           </ul>
           <p className="pt-4">
             GarbhaGnan Foundation plans to run collaborative projects in the
             field of infertility through awareness, research, treatments and
-            training of doctors in Public Health Centers along with Corporates
+            training of doctors in Public Health Centers along with Corporate
             and Government organizations so that every couple is ready to have a
             child.
           </p>

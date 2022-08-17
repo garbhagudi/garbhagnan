@@ -15,8 +15,8 @@ const SectionTwo = (props: Props) => {
             Infertility is a common problem all over the world. Yet it is also
             one of the most misunderstood health issues. In most cases, the
             problem can be resolved with the right treatment at the right time.
-            Unfortunately, not many women living in the rural and isolated parts
-            of India have access to the right doctors. This is where GarbhaGnan
+            Unfortunately, not many women in the rural and isolated parts of
+            India have access to the right doctors. This is where GarbhaGnan
             Foundation is making a difference. We are devoted to ensuring that
             women have a chance to enjoy the beautiful journey of motherhood
             with the help of specialized doctors who are experienced in the
@@ -24,7 +24,7 @@ const SectionTwo = (props: Props) => {
           </p>
           <p className="pb-2">
             Come find out how GarbhaGnan Foundation is taking little steps to
-            ensure that you have a Baby!
+            ensure that they have a Baby!
           </p>
           <Link href="/gg-care">
             <a className="px-3 py-2 mt-8 mb-6 text-white sm:mb-0 bg-brandPink hover:bg-brandPink4 rounded-2xl">

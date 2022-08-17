@@ -37,20 +37,18 @@ const CarouselHome = (props: Props) => {
       >
         {Data.map((items: any) => (
           <div className="" key={items?.id}>
-            <Link href={items?.link} passHref>
-              <div>
-                <div className="absolute w-full h-full opacity-50 bg-zinc-600"></div>
-                <div className="absolute flex flex-col items-center justify-center w-full h-full">
-                  {items?.onDisplayText}
-                  <Link href={items?.link}>
-                    <a className="px-3 py-1 mt-4 text-xs font-semibold text-white sm:text-lg md:px-4 md:py-2 bg-brandPink rounded-3xl">
-                      Know More
-                    </a>
-                  </Link>
-                </div>
-                <img src={items?.image} alt={items?.title} />
+            <div>
+              <div className="absolute w-full h-full opacity-50 bg-zinc-600"></div>
+              <div className="absolute flex flex-col items-center justify-center w-full h-full">
+                {items?.onDisplayText}
+                <Link href={items?.link}>
+                  <a className="px-3 py-1 mt-4 text-xs font-semibold text-white sm:text-lg md:px-4 md:py-2 bg-brandPink rounded-3xl">
+                    Know More
+                  </a>
+                </Link>
               </div>
-            </Link>
+              <img src={items?.image} alt={items?.title} />
+            </div>
           </div>
         ))}
       </Carousel>
@@ -71,7 +69,7 @@ const Data = [
         </h1>
         <p className="mt-1 text-sm font-semibold text-center text-white sm:mt-4 md:text-lg">
           <span className="font-xs md:text-md">
-            The Journey of a thousand smiles that started with a cry
+            The journey of a umpteen smiles that started with a cry
           </span>
         </p>
       </div>
@@ -121,11 +119,13 @@ const Data = [
       <div>
         <h1 className="text-2xl font-bold text-center text-white md:text-4xl lg:text-6xl font-heading">
           Culminating Infertility <br />{" "}
-          <span className="text-xl md:text-3xl lg:text-5xl">Giving Hope</span>
+          {/* <span className="text-xl md:text-3xl lg:text-5xl">
+            
+          </span> */}
         </h1>
-        {/* <p className="mt-4 text-lg font-semibold text-center text-white">
-          Creating awareness about infertility in men and women
-        </p> */}
+        <p className="mt-4 text-lg font-semibold text-center text-white">
+          Vision with a social mission
+        </p>
       </div>
     ),
     link: "",
@@ -138,10 +138,10 @@ const Data = [
     onDisplayText: (
       <div>
         <h1 className="text-2xl font-bold text-center text-white md:text-4xl lg:text-6xl font-heading">
-          Women Welness Program
+          Women&apos;s Wellness Program
         </h1>
         <p className="mt-4 text-sm font-semibold text-center text-white md:text-lg">
-          A wholesome approach to reproductive welness
+          A wholesome approach to reproductive wellness
         </p>
       </div>
     ),

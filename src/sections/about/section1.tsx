@@ -27,8 +27,10 @@ const SectionOne = (props: Props) => {
           </p>
           <p className="pb-2">
             GarbhaGnan Foundation is not just about healthcare, though that will
-            be the initial focus due to the nature of our business. The
-            Foundation’s aim is to work on the above mentioned areas.
+            be the initial focus due to the nature of our service. The
+            Foundation’s aim is to work on the areas of fertility awareness,
+            quality but subsidized health care, healthcare access for women in
+            rural areas and economically challenged situation.
           </p>
           <h2 className="py-3 text-2xl font-bold md:text-3xl font-heading">
             Welcome to GarbhaGnan Foundation!
@@ -37,9 +39,10 @@ const SectionOne = (props: Props) => {
             GarbhaGnan Foundation is one of the foremost foundations in the
             country that offers specialized and the latest health care for
             women. With growing rates of infertility across the globe due to
-            varying diet, lesser physical exertion and so on, GarbhaGnan
-            Foundation remains steadfast in helping women get unparalleled care
-            from experienced specialists.
+            varying diet, lesser physical exertion, increased exposure to
+            radiation, pollution and poor lifestyle, GarbhaGnan Foundation
+            remains steadfast in helping women get unparalleled care from
+            experienced specialists.
           </p>
         </div>
       </div>
@@ -47,9 +50,9 @@ const SectionOne = (props: Props) => {
         Rural India has always remained under the radar when it comes to primary
         healthcare. GarbhaGnan Foundation holds regular health camps focusing on
         gynecology in different rural parts of the country under the guidance of
-        a specialized team of doctors who have plenty of experience. It is one
-        of the first institutions in the country to organize gynecology camps
-        for women who do not have the means to access to proper health care.
+        a specialized team of doctors with great expertise in the field. It is
+        one of the first institutions in the country to organize gynecology
+        camps for women who do not have access to proper health care.
       </div>
     </div>
   );

@@ -9,9 +9,9 @@ const Objective = (props: Props) => {
         <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-md text-dark font-heading">
           Our Objectives
         </h2>
-        <p className="text-base text-body-color">
+        {/* <p className="text-base text-body-color">
           To Be Graphically Represented
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-2 gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3 sm:px-2">
@@ -61,7 +61,7 @@ const Data = [
   {
     id: 4,
     title:
-      "Providing access to subsidized quality healthcare to the rural population",
+      "Providing access to subsidized and quality healthcare to the rural population",
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1659965258/garbhagnan.org/icons/icon-04_gljbfk.png",
   },
@@ -73,7 +73,7 @@ const Data = [
   },
   {
     id: 6,
-    title: "Women Wellness programs",
+    title: "Women’s wellness programs",
     image:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1659965266/garbhagnan.org/icons/icon-06_xpcxr2.png",
   },

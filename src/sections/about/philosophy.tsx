@@ -11,8 +11,8 @@ const Philosophy = (props: Props) => {
         </h1>
         <p className="pb-2 text-lg">
           GarbhaGnan Foundation is gratified on being a one-of-a-kind specialty
-          medical care center that focuses only on Women. Our exceptional
-          success rates and patient care is another feather in our cap.
+          medical care centre, that focuses only on Women. Our exceptional
+          success rates and couple care is another feather in our cap.
         </p>
       </div>
     </div>

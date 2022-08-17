@@ -18,13 +18,13 @@ const Content = (props: Props) => {
               health camps and providing health tips and recommendations is the
               best way to bring awareness among underprivileged people to lead a
               healthy life. As a responsibility to give back to society, these
-              fertility camps empower people through education, health, and safe
-              surroundings. GarbhaGnan Foundation contributes by social
-              awareness to stay healthy and fit by conducting fertility health
-              camps and medicine distribution programs. GarbhaGnan Foundation
-              dedicatedly brings a positive change to the underprivileged
-              section of society. It aims to help people in rural areas to know
-              about their fertility and lead a healthy lifestyle.
+              fertility camps empower people through education, health and safe
+              surroundings. GarbhaGnan Foundation contributes to the social
+              awareness by educating people to stay healthy and fit through
+              fertility health camps and medicine distribution programs.
+              GarbhaGnan Foundation dedicatedly brings a positive change to the
+              underprivileged section of society. It helps people in rural areas
+              to know about their fertility and to lead a healthy lifestyle.
             </p>
           </div>
           <div className="mx-auto">
@@ -70,13 +70,13 @@ const Content = (props: Props) => {
             <p className="pt-4">
               The word ‘PARIPOORNA’ means fulfilment. GarbhaGudi under Dr Asha’s
               medical supervision is trying to fulfil the dreams of many couples
-              in achieving their parenthood. <br />
+              hoping to achieve their parenthood. <br />
               <br />
               Paripoorna is an initiative of GarbhaGudi IVF Centre and is being
               done in association with GarbhaGnan Foundation. It is a special
-              benefit plan for patients who want to go in for fertility
-              treatment, but are unable to bear the costs. It applies to a
-              limited number of couples and is based on their eligibility.
+              benefit plan for couples that want to go for fertility treatment,
+              but are unable to bear the costs. It applies to a limited number
+              of couples and is based on their eligibility.
             </p>
             <img
               src="https://res.cloudinary.com/garbhagudi/image/upload/v1660048187/garbhagnan.org/images/our-initiatives-2-chi_uqognb.jpg"
@@ -111,17 +111,17 @@ const Content = (props: Props) => {
               Today the corporate world is growing leaps and bounds. Due to a
               sedentary lifestyle, many people suffer from fertility health
               conditions but do not realize it. It results in individuals either
-              not receiving treatment or not receiving it in time, although
-              effective medicines and therapies are available. To prevent this
-              occurrence, Dr Asha conducts fertility health talks. Fertility
-              Health talks raise awareness and improve knowledge of diseases,
-              their symptoms and treatment options. Ultimately, healthcare
-              professionals and patients can only make informed decisions if
-              they have accurate information. Through GarbhaGnan Foundation, Dr
-              Asha seeks to empower communities, medical professionals and
-              patients with appropriate tools, knowledge and skills so that they
-              can make high-quality, informed decisions on prevention,
-              diagnosis, treatment, care, and disease management.
+              in not receiving treatment or not receiving it on time, even
+              though effective medicines and therapies are available. To prevent
+              this occurrence, Dr Asha conducts fertility health talks.
+              Fertility Health talks raise awareness and improve knowledge of
+              diseases, their symptoms and treatment options. Ultimately,
+              healthcare professionals and patients can only make informed
+              decisions if they have accurate information. Through GarbhaGnan
+              Foundation, Dr Asha seeks to empower communities, medical
+              professionals and patients with appropriate tools, knowledge and
+              skills so that they can make high-quality informed decisions on
+              prevention, diagnosis, treatment, care and disease management.
             </p>
           </div>
         </div>

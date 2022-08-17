@@ -15,7 +15,7 @@ const StoryTwo = (props: Props) => {
         </div>
         <div className="flex flex-col items-start justify-center">
           <h1 className="text-2xl font-bold md:text-3xl font-heading">
-            Feedbacks of users who used the feeding booth in Lalbagh:
+            Feedbacks of mothers who used the feeding booth in Lalbagh:
           </h1>
           <p className="pt-4">
             Sneha Rao: I visited the flower show at Lalbagh. I had my
@@ -25,7 +25,7 @@ const StoryTwo = (props: Props) => {
           <p className="pt-4">
             Anushka Kamath: Thanks to GarbhaGudi for organizing a feeding booth
             where I could feed my 8-months-old baby. The ambience of the feeding
-            booth was pleasant, comforting where our privacy maintained.
+            booth was pleasant, comforting and our privacy was maintained.
           </p>
           <p className="pt-4">
             Sushma Kanthimath: I was so relieved when I got to know about the

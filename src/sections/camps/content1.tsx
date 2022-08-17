@@ -36,12 +36,20 @@ const ContentOne = (props: Props) => {
             Awareness is the first step to solving infertility issues and
             screening camps are the stepping stones!
           </p>
+          <p className="pt-4">
+            Adhering to great responses and the feedbacks we receive from
+            couple, GarbhaGnan organizes regular health check-up and fertility
+            screening camps to address the unawareness issue that exists as a
+            cause of infertility. This is our way of giving back to the society
+            and a road way to live our ultimate passion of eradication of
+            infertility.
+          </p>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto flex items.center justify-center ">
           <img
             src="https://res.cloudinary.com/garbhagudi/image/upload/v1660051646/garbhagnan.org/images/ramnagara-camp-01_gquvpz.jpg"
             alt="image1"
-            className="mt-4 lg:mt-0 rounded-xl"
+            className="object-cover mt-4 lg:mt-0 rounded-xl"
           />
         </div>
       </div>

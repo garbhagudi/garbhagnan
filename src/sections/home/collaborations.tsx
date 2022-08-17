@@ -10,8 +10,8 @@ const Collaborations = (props: Props) => {
           Collaborations
         </h1>
         <p className="pb-8 text-center">
-          We have successfully conducted Women wellness talks in association
-          with
+          We have successfully conducted talks on Women’s Wellness in
+          association with
         </p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6">
