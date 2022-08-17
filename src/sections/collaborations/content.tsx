@@ -48,8 +48,7 @@ const Content = (props: Props) => {
           <ul className="space-y-2 list-disc list-inside">
             <li>Rotary Club Bangalore</li>
             <li>Confederation of Women Entrepreneurs </li>
-            <li>Rashtrotthana Parishat</li>
-            <li>and many more</li>
+            <li>Rashtrotthana Parishath and many more...</li>
           </ul>
           <p className="mt-4">
             It ensures that all the Public Health Centres, Corporate and

@@ -15,15 +15,15 @@ const Activities = (props: Props) => {
             GarbhaGnan foundation envisions the future and wants to create an
             impact in the lives of underprivileged women who struggle without
             the basic amenities by providing assistance and treatment for
-            various gynecological issues of those who not just from the city but
-            also who belong to the remotest of rural areas.
+            various gynecological issues to those who are not just from the city
+            but also from the rural areas.
           </p>
           <div className="mt-8 text-center sm:text-left">
-            <Link href="/">
+            {/* <Link href="/">
               <a className="px-6 py-3 font-semibold text-white text-md bg-brandPink rounded-3xl">
                 Know More
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <img
